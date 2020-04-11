@@ -1,3 +1,16 @@
-.logo {
-    padding-top: 109px;
+#LogoBox {
+    display: flex;
+    justify-content: center;
+}
+.Logo {
+    padding-top: 109px; 
+}
+
+#SearchForm {
+    display: flex;
+    justify-content: center;
+}
+
+.SBar {
+    
 }
