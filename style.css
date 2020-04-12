@@ -9,8 +9,21 @@
 #SearchForm {
     display: flex;
     justify-content: center;
+    padding-top: 6px;
 }
 
-.SBar {
-    
+.SBarInput {
+    color: #222;
+    background: #fff;
+    border: 1px solid;
+    border-radius: 24px;
+    height: 44px;
+    margin: 0 auto;
+    width: 482px;
+    border-color: rgb(223, 225, 229);
+}
+
+.SBarInput:hover {
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
 }
