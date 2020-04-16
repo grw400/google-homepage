@@ -25,11 +25,12 @@ a:visited{
     top: 16px;
     position: relative;
     font-size: 13px;
+    margin: 7px 0 0 10px;
 }
 
 #headerTopLeft{
     position: absolute;
-    margin: 7px 0 0 10px;
+    
 }
 
 #headerTopLeft a{
@@ -39,29 +40,25 @@ a:visited{
     opacity: 0.75;
 }
 #headerTopRight{
-    white-space: nowrap;
-    text-align: right;
-    font-size: 13px;
     z-index: 987;
     float: right;
     min-width: 165px;
     padding-left: 30px;
     padding-right: 30px;
     position: relative;
-    vertical-align: middle;
+    text-align: right;
+    
+    white-space: nowrap;
 }
-
 #headerTopRight a{
-    display: inline-block;
-    line-height: 24px;
-    outline: none; 
     color: #000;
     opacity: 0.75;
-    text-decoration: none;
 }
 
-gmail{
-
+.gmailImages{
+    padding-right: 15px;
+    line-height: normal;
+    display: inline-block;
 }
 
 .content{
