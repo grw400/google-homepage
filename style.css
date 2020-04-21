@@ -30,7 +30,6 @@ a:visited{
 
 #headerTopLeft{
     position: absolute;
-    
 }
 
 #headerTopLeft a{
@@ -47,7 +46,6 @@ a:visited{
     padding-right: 30px;
     position: relative;
     text-align: right;
-    
     white-space: nowrap;
 }
 #headerTopRight a{
@@ -59,6 +57,36 @@ a:visited{
     padding-right: 15px;
     line-height: normal;
     display: inline-block;
+}
+
+.signIn{
+    line-height: normal;
+    position: relative;
+    text-align: left;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+#googleApps{
+    padding: 0 0 0 15px;
+    vertical-align: middle;
+}
+
+.squares{
+    position: relative;
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+    opacity: .55;
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    border-radius: 2px;
+    box-sizing: border-box;
+    height: 30px;
+    width: 30px;
 }
 
 .content{
